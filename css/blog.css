@@ -1,0 +1,106 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url(../resources/DenkOne-Regular.ttf);
+}
+
+body{
+    font-family: myFirstFont;
+}
+
+nav div{
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Blog{
+    top: -15px;
+    font-size: 40px;
+    border-radius: 100px;
+    width: 300px;
+    color: white;
+    background-color: #E73541;
+    position: relative;
+    margin-right: 250px;
+}
+
+.Portfolio{
+    top: -15px;
+    font-size: 40px;
+    border-radius: 100px;
+    width: 300px;
+    color: white;
+    background-color: black;
+    position: relative;
+    margin-right: 50px;
+}
+
+.About{
+    top: -15px;
+    font-size: 40px;
+    border-radius: 100px;
+    width: 450px;
+    color: white;
+    background-color: black;
+    margin-right: 50px;
+    position: relative;
+}
+
+nav div div p{
+    text-align: center;
+    margin: auto;
+    width: 150px;
+}
+
+.About p{
+    text-align: center;
+    margin: auto;
+    width: 450px;
+}
+
+.projet1{
+    border-radius: 15px;
+    margin: 50px;
+    padding: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    border:solid;
+}
+
+.projet1 .one{
+    border-radius: 10px;
+    height: 100%;
+    width: 100%;
+}
+
+.projet1 .two{
+    position: relative;
+    top: 150px;
+    width: 40%;
+    height: 20%;
+    border-radius: 50px;
+}
+
+.projet1 .three{
+    position: relative;
+    text-align: center;
+    font-size: 35px;
+    background: black;
+    color: white;
+    height: auto;
+    padding: 50px;
+    border-radius: 50px;
+    margin-bottom: 50px;
+}
+
+.projet1 .four{
+    position: relative;
+    bottom: 170px;
+    margin-left: 200px;
+    width: 10%;
+    height: 10%;
+    border-radius: 100%;
+}

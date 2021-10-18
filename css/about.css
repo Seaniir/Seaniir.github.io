@@ -1,0 +1,145 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url(../resources/DenkOne-Regular.ttf);
+}
+
+body{
+    font-family: myFirstFont;
+}
+
+nav div{
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Blog{
+    top: -15px;
+    font-size: 40px;
+    border-radius: 100px;
+    width: 300px;
+    color: white;
+    background-color: black;
+    position: relative;
+    margin-right: 250px;
+}
+
+.Portfolio{
+    top: -15px;
+    font-size: 40px;
+    border-radius: 100px;
+    width: 300px;
+    color: white;
+    background-color: black;
+    position: relative;
+    margin-right: 50px;
+}
+
+.About{
+    top: -15px;
+    font-size: 40px;
+    border-radius: 100px;
+    width: 450px;
+    color: white;
+    background-color: #E73541;
+    margin-right: 50px;
+    position: relative;
+}
+
+nav div div p{
+    text-align: center;
+    margin: auto;
+    width: 150px;
+}
+
+.About p{
+    text-align: center;
+    margin: auto;
+    width: 450px;
+}
+
+.bio{
+    text-align: center;
+    margin: auto;
+    width: 30%;
+    font-size: 35px;
+}
+
+.case1, .case2, .case3, .case4{
+    position: relative;
+    bottom: 60px;
+    width: 15%;
+    padding: 1% 1%;
+    background-color: #C4C4C4;
+    font-size: 35px;
+    text-align: center;
+    display: inline-flex;
+    flex-direction: column;
+    margin-left: 145px;
+    border-radius: 50px;
+}
+
+.case3{
+    position: relative;
+    top: -35px;
+    padding: 2.5% 0;
+    height: 250px;
+}
+
+.case4{
+    position: relative;
+    top: 85px;
+    padding: 0% 0;
+    height: 250px;
+    font-size: 180px;
+}
+
+.arrow {
+    width: 120px;
+  }
+  
+  .line {
+    margin-top: 14px;
+    width: 90px;
+    background: black;
+    height: 10px;
+    float: left;
+  }
+  
+  .point {
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+    border-left: 30px solid black;
+    float: right;
+  }
+
+  .fleches{
+    position: relative;
+    bottom: 200px;
+    display: flex;
+  }
+
+  .arrow:nth-child(1){
+      position: relative;
+      left: 120px;
+      margin-left: 330px;
+  }
+
+  .arrow:nth-child(2){
+    position: relative;
+    left: 107px;
+    margin-left: 330px;
+}
+
+.arrow:nth-child(3){
+    position: relative;
+    left: 92px;
+    margin-left: 330px;
+}
+
+.logos img{
+    margin-left: 260px;
+}
